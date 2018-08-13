@@ -1,0 +1,191 @@
+/*.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}*/
+
+html {
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/bananas.png);
+    background-size: cover;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+.wrapper {
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto -105px;
+    clear: both;
+}
+
+footer,
+.push {
+    height: 105px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin: 0;
+    line-height: 34px;
+    font-size: 18px;
+}
+
+/*#masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+}*/
+
+.topheader {
+    float: left;
+    background-color: #4aaaa5;
+    padding: 10px 20px;
+}
+
+.nav {
+    float: right;
+    background-color: white;
+    color: #666;
+    padding-top: 20px;
+}
+
+.nav-item {
+    float: left;
+    list-style: none;
+}
+
+.nav-item a {
+    color: #777777;
+    text-decoration: none;
+    padding: 0px 10px;
+    border-right: 1px solid #dddddd;
+}
+
+header {
+    border-bottom: 2px solid #cccccc;
+    background-color: #fff;
+    margin: 0;
+}
+
+.picture {
+    float: left;
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+/*.anotherone {
+    float: left;
+    width: 700px;
+    padding-left: 15px;
+    margin-top: 0;
+    padding-top: 0;
+}*/
+
+#maincontent {
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-color: #dddddd;
+    width: 100%;
+    max-width: 960px;
+}
+
+/*hr {
+    display: block;
+    border: 0;
+    height: 2px;
+    border-color: #dddddd;
+    background-color: #dddddd;
+}*/
+
+.button {
+    background-color: #4aaaa5;
+    color: white;
+    margin: 10px;
+    width: 80px;
+    text-align: center;
+}
+
+input {
+    margin: 10px 0px;
+    width: 100%;
+}
+
+form {
+    margin: 10px 0px;
+}
+
+.contact {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-color: 1px solid #dddddd;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.item {
+    float: left;
+    position: relative;
+    margin: 10px;
+}
+
+.label {
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.content {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+    clear: both;
+}
+
+.label p {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+    background-color: #666;
+    color: #fff;
+    font-size: 12px;
+    padding: 30px 0px;
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
